@@ -28,8 +28,8 @@ Style = {
 };
 render() {
     return (
-        <div className="ui list" style={this.Style}>
-        <h1> Niharika's Restaurant Menu </h1>
+        <div className="ui list" style={this.Style} >
+        <h1> Leees Kitchen Restaurant Menu </h1>
         <FoodItem
             picture={this.state.picture[0]}
             name={this.state.name[0]}
@@ -42,9 +42,9 @@ render() {
        />
        <br/>
        <FoodItem
-            picture={this.state.picture[2]}
-            name={this.state.name[2]}
-            price={this.state.price[2]}
+            picture={this.state.picture[3]}
+            name={this.state.name[3]}
+            price={this.state.price[3]}
        />
       <br/>
       <FoodItem
@@ -52,6 +52,7 @@ render() {
            name={this.state.name[3]}
            price={this.state.price[3]}
         />
+
       </div>
    );
  }
